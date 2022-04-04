@@ -1,13 +1,13 @@
 {
-    "name": "jump-to-line-number",
-    "displayName": "Jump To Line Number",
-    "description": "quick jump to line number in file",
+    "name": "jump-to-file-jsx-include",
+    "displayName": "Jump To File (ExtendScript)",
+    "description": "quick jump to a //@include referenced file",
     "version": "0.0.1",
-    "publisher": "ctf0",
+    "publisher": "grefel",
     "engines": {
         "vscode": "^1.54.0"
     },
-    "repository": "https://github.com/ctf0/vscode-jump-to-line-number",
+    "repository": "https://github.com/grefel/vscode-jump-to-file",
     "categories": [
         "Other"
     ],
@@ -23,7 +23,7 @@
     "contributes": {
         "configuration": {
             "type": "object",
-            "title": "Jump To Line Number",
+            "title": "Jump To File",
             "properties": {
                 "jumpToLineNumber.commentChar": {
                     "type": "array",
