@@ -24,7 +24,7 @@ export default class LinkProvider implements DocumentLinkProvider {
         if (editor) {
             const text = doc.getText()
 
-            let regex   = new RegExp(`//@include +['"]?(.+\.jsx)`, 'g')
+            let regex   = new RegExp(`//@include +['"]?(.+\.jsx?)`, 'g')
             let links   = []
             let matches = text.matchAll(regex)            
 
